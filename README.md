@@ -207,12 +207,16 @@ Performance evaluated using:
 - Top-10 Accuracy  
 
 These metrics measure whether the correct instance appears within Top-K retrieved results.
+
+
 <img width="336" height="116" alt="image" src="https://github.com/user-attachments/assets/2321b59e-1518-4d42-a235-1b238f947edd" />
 
 
 ---
 
 ## Sample Retrieval Visualization 
+<img width="1389" height="518" alt="image" src="https://github.com/user-attachments/assets/7a6625f6-9bbc-471d-a111-4d7216d7c3b2" />
+
 
 Qualitative visualization is the most important evaluation proof for similarity systems.
 
@@ -303,20 +307,6 @@ Using FAISS:
 
 ---
 
-## Deployment Architecture
-
-FastAPI endpoints:
-
-- `/encode` → Generate embedding  
-- `/search` → Return Top-K similar images  
-
-The system supports:
-
-- Real-time similarity search  
-- API integration  
-- Scalable deployment  
-
----
 # Sample Output
 <img width="730" height="326" alt="image" src="https://github.com/user-attachments/assets/dd00a32b-2d43-4482-bf72-22d17ed7bc18" />
 ---
@@ -329,7 +319,7 @@ This project successfully implements:
 - 512-dimensional L2-normalized feature vectors  
 - Cosine similarity-based retrieval  
 - FAISS-optimized scalable search  
-- End-to-end API deployment  
+ 
 
 It builds a scalable **visual similarity search engine** suitable for:
 
